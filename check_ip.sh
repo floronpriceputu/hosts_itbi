@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Florin Venis
+
 cat /etc/hosts | while read -r line; do
     if [[ "$line" =~ ^#.* ]] || [[ -z "$line" ]]; then
         continue
